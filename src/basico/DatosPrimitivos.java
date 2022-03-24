@@ -13,6 +13,12 @@ public class DatosPrimitivos {
 		System.out.println("valor byte: " + numeroByte); // impresicion por superar el rango que soporta el tipo de dato
 		System.out.println("valor minimo del byte: " + Byte.MIN_VALUE);
         System.out.println("valor maximo byte: " + Byte.MAX_VALUE);
+        
+        short numeroShort = 10;
+		System.out.println("numeroShort: " + numeroShort);
+		System.out.println("valor minimo de Short: " + Short.MIN_VALUE);
+        System.out.println("valor maximo Short: " + Short.MAX_VALUE);
+        
 	}
 
 }

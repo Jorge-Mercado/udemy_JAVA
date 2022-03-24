@@ -13,6 +13,8 @@ public class TiposdeDatos {
 		System.out.println(entero);
 		System.out.println(saludito);
 		System.out.println(cadena2);
+		
+		
 	}
 
 }
