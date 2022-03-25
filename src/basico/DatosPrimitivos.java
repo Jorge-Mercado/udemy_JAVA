@@ -14,11 +14,22 @@ public class DatosPrimitivos {
 		System.out.println("valor minimo del byte: " + Byte.MIN_VALUE);
         System.out.println("valor maximo byte: " + Byte.MAX_VALUE);
         
-        short numeroShort = 10;
+        short numeroShort = (short)32768; // forzamos a realizar la conversion perdiendo precision 
 		System.out.println("numeroShort: " + numeroShort);
 		System.out.println("valor minimo de Short: " + Short.MIN_VALUE);
         System.out.println("valor maximo Short: " + Short.MAX_VALUE);
         
+        // lo más recomendable siempre es utilizar el tipo primitivo INT
+        
+        int numeroInt = 10; // si sobrepasamos el tamaño de int, debemos agregar una L mayuscula al final de los numeros
+        System.out.println("numeroInt: " + numeroInt);
+		System.out.println("valor minimo de Int: " + Integer.MIN_VALUE);
+        System.out.println("valor maximo Int: " + Integer.MAX_VALUE);
+        
+        long numeroLong = 10; // si nos pasamos de tipo Long, agregamos una F o una D de double.
+        System.out.println("numeroLong: " + numeroLong);
+		System.out.println("valor minimo de Short: " + Long.MIN_VALUE);
+        System.out.println("valor maximo Short: " + Long.MAX_VALUE);
 	}
 
 }
