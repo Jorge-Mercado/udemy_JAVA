@@ -11,7 +11,7 @@ public class InferenciaDeTipos {
 		var numeroDouble = 10.0;
 		System.out.println("numeroDouble: " + numeroDouble);
 		// en inferencia de tipos solo tenemos literales para long, float y double.
-		// test
+		// testesito
 	}
 
 }
