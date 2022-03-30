@@ -15,6 +15,21 @@ public class TipoPrimitivoBoolean {
 			
 			System.out.println("la bandera es falsa");
 		}
+		
+		
+		var edad = 30;
+		var esAdulto = edad >= 18;
+		if(esAdulto) {
+			
+			System.out.println("eres mayor de edad");
+			
+		}else {
+			
+			System.out.println("eres menor de edad");
+		}
+		
+		
+		
 
 	}
 
