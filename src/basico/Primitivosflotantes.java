@@ -23,7 +23,15 @@ public class Primitivosflotantes {
 		
 		System.out.println("numeroFloat: " + numeroFloat);
         System.out.println("valor minimo tipo float: " + Float.MIN_VALUE );
-        System.out.println("valor minimo tipo float: " + Float.MAX_VALUE );
+        System.out.println("valor maximo tipo float: " + Float.MAX_VALUE );
+        
+        
+        double numeroDouble = 10; // en automatico la literal de tipo entero se asigna sin ningun tipo de conversion.
+        System.out.println("numeroDouble: " + numeroDouble);
+        System.out.println("valor minimo tipo Double: " + Double.MIN_VALUE );
+        System.out.println("valor maximo tipo Double: " + Double.MAX_VALUE );
+        
+        // DOUBLE ES EL TIPO DE DATO MÁS GRANDE EN JAVA, y con mayor capacidad de almacenar valores.
 	}
 
 }
