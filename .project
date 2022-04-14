@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/img/prioridad.png</name>
+			<type>1</type>
+			<location>/home/yorch/Documentos/RECURSOS_UDEMY_JAVA/prioridad.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
