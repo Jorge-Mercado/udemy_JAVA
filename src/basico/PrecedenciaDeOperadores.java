@@ -25,7 +25,13 @@ public class PrecedenciaDeOperadores {
 		var x = 5; 
 		var y = 10; 
 		var z = ++x + y--;
-		System.out.println("z= " +z);
+		System.out.println("x= " + x );
+		System.out.println("y= " + y );
+		System.out.println("z= " + z );
+		
+		var resultado = 4 + 5 * 6/3; // primero 6/3 = 2, se multiplica por 5, = 10, y se suma con 4, = 14
+		// se evalua la prioridad empezado de izquierda a derecha. 
+		System.out.println("resultado= " +resultado);
 		
 		
 		
