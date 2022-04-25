@@ -7,7 +7,7 @@ public class ConversionTiposPrimitivos {
 		// convertir un tipo string a un tipo int 
 		var edad = Integer.parseInt("20"); // recibe un valor de una cadena y lo convierte a un tipo entero
 		// en lugar de ser de tipo string se va a hacer de tipo entero
-        System.out.println("edad: " + (edad + 1));
+        System.out.println("edad: " + (edad + 10));
         
         // convertir un tipo de dato String a double 
          var valorPI = Double.parseDouble("3.1416");
