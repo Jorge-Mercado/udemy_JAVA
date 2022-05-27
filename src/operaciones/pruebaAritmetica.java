@@ -48,5 +48,5 @@ public class pruebaAritmetica {
     //tambien los atributos de la clase se van a almacenar en la memoria heap.
     //en variables locales sólo se guardan las referencias al objeto.
     // si las variables son locales se almacenan en la memoria stack.
-    //
+    // para regresar el valor solo hay que usar el return. 
 }
