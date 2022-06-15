@@ -13,8 +13,8 @@ public class Persona { // la clase debe de iniciar con mayuscula.
 	// se recomienda declarar los atributos al incio de la clase.
 	// nombre, genero, ocupación
 	
-	String nombre;
-	String apellido;
+	public String nombre;
+	 public String apellido;
 	
 	// posterior los metodos:  obtener nombre, obtenerGenero(),modificarNombre().
 	// para usar la clase debemos crear objetos (instanciar).
